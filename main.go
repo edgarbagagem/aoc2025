@@ -3,6 +3,7 @@ package main
 import (
 	"edgar/aoc2025/day1"
 	"edgar/aoc2025/day2"
+	"edgar/aoc2025/day3"
 	"log"
 	"os"
 	"strconv"
@@ -39,6 +40,8 @@ func main() {
 		err = day1.Solution(partNum)
 	case 2:
 		err = day2.Solution(partNum)
+	case 3:
+		err = day3.Solution(partNum)
 	}
 
 	if err != nil {
