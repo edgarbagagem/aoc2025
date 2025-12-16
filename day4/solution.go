@@ -14,7 +14,7 @@ func Solution(part int) error {
 	case 2:
 		return partTwo()
 	default:
-		return fmt.Errorf("invalid part %d for day 3", part)
+		return fmt.Errorf("invalid part %d for day 4", part)
 	}
 }
 
